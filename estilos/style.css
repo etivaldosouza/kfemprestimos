@@ -17,25 +17,32 @@
 
 header {
     background-color: var(--orange-light);
+         
+}
+
+
+
+.container {
     display: flex;
-    flex-flow: row nowrap;
-    align-items:center
+    flex-flow: column nowrap;
     
 }
-
-header > h1 {
-    border: 1px dotted black; /*dotted(pontilhado)*/;
-    align-self: flex-start;
-    margin: auto;
+.filho {
+    display: flex;
+       
 }
-
-header > p {
-    align-self: center;
-}
-header > img {
+.filho > img {
     border: 1px dotted black;
+    align-items: flex-start;  
+}
+.filho > h1 {
+    border: 1px dotted black;
+    align-self: ;
 }
 
+.filho > p {
+    border: 1px dotted black; 
+}
 nav {
     background-color: var(--orange-dark)
 }
