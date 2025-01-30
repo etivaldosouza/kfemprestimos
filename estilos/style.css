@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Montserrat", serif;
+    font-family: "Open Sans", serif;
+    
 }
 :root {
     --orange-light: #FFB74D;
@@ -18,12 +20,10 @@
 }
 
 header {
-    background-image:linear-gradient(to bottom, #FFB74D,#F57C00);
-    color: white;
+    background-color: #462B72;
+    color: var(--orange-main);
     display: flex; 
-    flex-flow: column nowrap; /*em linha sem quebra*/
-     /*alinhamento consid o cross-assis*/   
-    
+    flex-flow: column nowrap; /*em linha sem quebra*/     
 }
 
 html,body {
@@ -39,32 +39,72 @@ html,body {
 
 header > img {
     border: 1px dotted black;
-    align-self: center;
+    align-self: center; /*alinhamento consid o cross-assis*/ 
+    margin: 20px;
     
      
 }
 .container > h1 {
-    border: 1px dotted black;
+    border: 1px dotted rgba(0, 0, 0, 0.671);
     align-self: center;
     font-size: 3em;
-    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.671);
 }
 
 .container > p {
     border: 1px dotted black; 
     text-align: center;
-    font-size: 1.3em;
+    color: white;
+    font-family: "Open Sans", serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
+    margin: 20px;
+    
 }
     
-.menu {
-    background-color: var(--white);
+nav {
+    background-color: #462B72;
     border: 1px dotted black;
     display: flex;
-}  
+    flex-flow: row nowrap;
+    justify-content: space-around;
     
+}  
+
+nav > a {
+    color: var(--orange-dark);
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; 
+    color:#462B72 ;     
+}
+
+
+.itensprincipal {
+    display: flex;
+    flex-flow: column nowrap;
+       
+}
+
+
+main > h2 {
+    align-self: flex-start;
+    color: black;
+    margin: 10px;
+}
 
 section {
     background-color: var(--gray-light);
-    border: 1px 1px 1px black;
-    border: 1px dotted black;
+    border: 1px dotted black;  
+    margin: 10px; 
+}
+
+section > p {
+    color: black;
+    font-size: 1.3em;
 }
