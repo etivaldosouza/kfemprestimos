@@ -77,7 +77,12 @@ nav > a {
     font-weight:bolder;
     font-size: 1.3em;
 }
-
+.fa-whatsapp {
+    color: green;
+    font-weight: 
+    
+    
+}
 main {
     display: flex;
     flex-flow: column wrap;
