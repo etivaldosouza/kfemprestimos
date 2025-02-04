@@ -113,7 +113,7 @@ section {
     border: 1px dotted black;  
     border-radius: 8px;
     margin: 10px; 
-    width: 95vw;
+    width: 90vw;
     height: 230px;
     display: flex;
     flex-flow: column nowrap;
