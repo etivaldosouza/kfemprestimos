@@ -17,10 +17,11 @@
     --white: #FFFFFF;
     --gray-light: #F5F5F5;
     --gray-dark: #333333;
+    --lilas: #462B72;
 }
 
 header {
-    background-color: #462B72;
+    background-color:  #00a8ff;/*#462B72;*/
     color: var(--orange-main);
     display: flex; 
     flex-flow: column nowrap; /*em linha sem quebra*/     
@@ -49,21 +50,20 @@ header > img {
     align-self: center;
     font-size: 3em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.671);
-}
+} 
 
 .container > p {
     border: 1px dotted black; 
     text-align: center;
     color: white;
     font-family: "Open Sans", serif;
-    font-size: 2em;
+    font-size: 2.3em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
-    margin: 20px;
-    
+    margin: 20px;    
 }
     
 nav {
-    background-color: #462B72;
+    background-color:  white;
     border: 1px dotted black;
     display: flex;
     flex-flow: row nowrap;
@@ -75,20 +75,23 @@ nav > a {
     color: var(--orange-dark);
     text-decoration: none;
     font-weight:bolder;
+    font-size: 1.3em;
 }
 
 main {
     display: flex;
     flex-flow: column wrap;
     align-items: center; 
-    color:#462B72 ;     
+    color:#462B72;
+    margin: 10px;
+    
 }
 
 
 .itensprincipal {
     display: flex;
-    flex-flow: column nowrap;
-       
+    flex-flow: row wrap;   
+    
 }
 
 
@@ -96,15 +99,43 @@ main > h2 {
     align-self: flex-start;
     color: black;
     margin: 10px;
+        
 }
 
 section {
+
     background-color: var(--gray-light);
     border: 1px dotted black;  
+    border-radius: 8px;
     margin: 10px; 
+    width: 450px;
+    height: 230px;
+    display: flex;
+    flex-flow: column nowrap;
+   */
 }
-
+section > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
 section > p {
     color: black;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    line-height: 1cm;
+    text-align: justify;
+    flex-shrink: 1;
+    flex-grow: 1;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
 }
