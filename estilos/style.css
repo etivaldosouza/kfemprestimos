@@ -122,7 +122,7 @@ section {
     border: 1px dotted black;  
     border-radius: 8px;
     margin: 10px; 
-    width: 70vw;
+    width: 500px;
     height: 230px;
     display: flex;
     flex-flow: column nowrap;
