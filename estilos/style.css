@@ -165,6 +165,7 @@ section > p {
     display: flex;
     flex-flow: column wrap;
     margin-left: 80px;
+    overflow: hidden;/* ao colocar a cor de fundo havia tirado a curvatura da borda e esse elemento corrige(esconde oq fica fora da borda*/
 }
 
 .button > a {
