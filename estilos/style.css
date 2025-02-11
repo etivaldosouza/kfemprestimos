@@ -25,10 +25,14 @@ body,html {
     height: 100vh;
 }
 
-body {
-    display: flex;
-    flex-flow: column nowrap;
 
+
+#icone-menu {
+    background-color: #333333;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    color: white;
 }
 
 header {
@@ -84,7 +88,7 @@ nav {
     height: 45px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-around;  
     align-items: center;
     
 }  
