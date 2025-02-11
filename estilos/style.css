@@ -25,7 +25,11 @@ body,html {
     height: 100vh;
 }
 
-
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
 
 #icone-menu {
     background-color: #333333;
@@ -39,7 +43,7 @@ header {
     background-color:#44BFE5;/*#462B72;*/
     color: var(--orange-main);
     display: flex; 
-    flex-flow: column nowrap; /*em linha sem quebra*/
+    flex-flow: column wrap; /*em linha sem quebra*/
      
 }
 
@@ -63,7 +67,7 @@ header > img {
 .container > h1 {
     border: 1px dotted rgba(0, 0, 0, 0.671);
     text-align: center;
-    font-size: 4.5em;
+    font-size: 2em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.671);
     flex-shrink: 1;
     flex-grow: 1;
@@ -75,7 +79,7 @@ header > img {
     text-align: center;
     color: white;
     font-family: "Open Sans", serif;   
-    font-size: 2.5em;
+    font-size: 2em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.671);
     flex-shrink: 1;
     flex-grow: 1;
@@ -97,7 +101,7 @@ nav > a {
     color: var(--orange-dark);
     text-decoration: none;
     font-weight:bolder;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
 }
 .fa-whatsapp {
@@ -124,7 +128,7 @@ main > h2 {
     display: flex;
     flex-flow: column wrap;   
     align-items: center;
-   
+    
     
 }
 
@@ -135,11 +139,10 @@ section {
     border: 1px dotted black;  
     border-radius: 10px;
     margin: 10px; 
-    width: 600px;
-    height: 230px;
     display: flex;
     flex-flow: row wrap; /*colunn nowrap*/
     justify-content: center;
+    width: 90vw;
 }
 
 
@@ -150,9 +153,10 @@ section > h2 {
 }
 section > p {
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1cm;
     text-align: justify;
+    
   
 }
 
