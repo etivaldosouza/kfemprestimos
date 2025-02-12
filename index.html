@@ -30,7 +30,8 @@
         <a href="#">Home</a>
         <a href="#">Sobre Nós</a>
         <a href="#">Localização</a>
-        <a href="#">Contato <i class="fa-brands fa-whatsapp"></i></a>  
+        <a href="#">Contato<i class="fa-brands fa-whatsapp"></i></a>  
+        
          
     </nav>   
 
@@ -71,6 +72,14 @@
             
         </div>
     </main>
-
+    <script>
+        var clicar = document.querySelector('#icone-menu')
+        clicar.addEventListener('click',exibir)
+        
+        function exibir () {
+            var m = document.querySelector('#nav')
+            m.style.display = 'flex'
+        }
+    </script>
 </body>
 </html>
